@@ -236,6 +236,16 @@ h2 {
   flex-basis: calc((100% - 90px)/4);
 }
 
+.experiment {
+  background-color: #F5F4FA;
+  height: 120px;
+  width: 100%;
+  margin-bottom: 30px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+/**
 .features-group::before {
   content: " ";
   display: block;
@@ -263,7 +273,7 @@ h2 {
 
 .features-group.icon-astronaut::before {
   background-image: url(../image/astronaut.svg);
-}
+} **/
 
 .features-list {
   list-style: none;
@@ -281,8 +291,9 @@ h2 {
   color: var(--titly-text-color);
 }
 
+
+
 .features-list .text {
-  
   line-height: 1.71;
   text-align: left;
 }
@@ -335,7 +346,7 @@ h2 {
 
 .team-content {
   padding-top: 30px;
-  padding-bottom: 30px;
+  
   padding-right: 30px;
   padding-left: 30px;
 }
@@ -359,41 +370,32 @@ h2 {
 .icons-group {
   display: flex;
   gap: 10px;
-  
   margin: 16px 32px 30px 32px;
-  
 }
 
 .social {
-  display: inline-block;
+  display: block;
   width: 44px;
   height: 44px;
-  padding: 12px;
+  
   border-radius: 55px;
   background-color: var(--whity-color);
 }
-
-
-
-     
+    
 
 .social:hover {
   background-color: var(--accent-color);
-
 }
 
 .social-icon {
-  width: 20px;
-  height: 20px;
-  
-
+  padding: 12px;
+  width: 44px;
+  height: 44px;
   fill: var(--icon-color);
-
 }
 
 .social-icon:hover {
   fill: var(--whity-color);
-
 }
 
 
@@ -404,6 +406,8 @@ h2 {
   padding-bottom: 60px;
   background-color: var(--background-dark);
 }
+
+
 
 .address li {
   list-style: none;
@@ -442,8 +446,43 @@ h2 {
   margin-top: 9px;
 }
 
+.footer-items {
+  display: flex;
+  gap: 30px;
+}
 
+.footer .footer-width {
+  flex-basis: calc((100% - 90px)/4);
+}
 
+.footer .title-icon {
+  margin-bottom: 20px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  
+  color: #FFFFFF;
+}
+
+.footer-icons-group {
+  display: flex;
+  gap: 10px;
+}
+
+.footer-icons-group .social {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-icons-group .social:hover {
+  background-color: var(--accent-color)
+}
+
+.footer-icons-group .social-icon {
+  fill: var(--whity-color);
+}
 
 /* Portfolio */
 

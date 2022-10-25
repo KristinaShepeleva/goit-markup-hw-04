@@ -201,6 +201,7 @@ h2 {
   width: 216px;
   height: 50px;
   border-radius: 4px;
+  border: none;
 }
 
 
@@ -384,12 +385,15 @@ h2 {
 .social-icon {
   width: 20px;
   height: 20px;
+  
+
   fill: var(--icon-color);
 
 }
 
 .social-icon:hover {
   fill: var(--whity-color);
+
 }
 
 

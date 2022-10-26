@@ -49,11 +49,13 @@ img {
   padding-bottom: 94px;
 }
 
-h2 {
+h2.title {
   color: var(--titly-text-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
+  margin-bottom: 50px;
+  text-align: center;
 }
 
 /* Header */
@@ -326,7 +328,7 @@ h2 {
 }
 
 .team-title {
-  margin-bottom: 50px;
+  
 }
 
 .team-list {
@@ -398,6 +400,41 @@ h2 {
   fill: var(--whity-color);
 }
 
+/* clients */
+
+.logo-list {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+.client-wrapper {
+  flex-basis: calc((100% - 150px)/6);
+  height: 92px;
+  display: block;
+  
+  border: 1px solid var(--icon-color);
+  border-radius: 4px;
+  
+}
+
+.client-wrapper:hover {
+    border: 1px solid var(--accent-color);
+} 
+
+.client {
+  
+  padding-top: 16px;
+  padding-bottom: 16px;
+  width: 170px;
+  height: 92px;
+  fill: var(--icon-color)
+}
+
+.client:hover {
+  fill: var(--accent-color);
+
+}
 
 /* Footer */
 

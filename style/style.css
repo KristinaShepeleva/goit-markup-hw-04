@@ -144,6 +144,28 @@ h2.title {
   margin-left: 50px;
 }
 
+.link.icon-link {
+   display: flex;
+   align-items: center;
+   
+}
+
+.link.icon-link:hover {
+  fill: var(--accent-color)
+}
+
+.icon {
+  display: block;
+  width: 16px;
+  height: 12px;
+  fill: currentColor;
+  margin-right: 10px;
+}
+
+.icon-smartphone {
+  width: 10px;
+  height: 16px;
+}
 
 
 
@@ -588,10 +610,6 @@ h2.title {
 
 .work-link {
   text-decoration: none;
-}
-
-.work-link .work-title:hover {
-  color: var(--accent-color);
 }
 
 .portfolio-list .work-title {

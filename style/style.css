@@ -368,21 +368,23 @@ h2.title {
   justify-content: center;
   width: 44px;
   height: 44px;
+  color: var(--icon-color);
   
   border-radius: 55px;
   background-color: var(--whity-color);
-  fill: var(--icon-color);
+  
 }
     
 .social:hover {
   background-color: var(--accent-color);
-  fill: var(--whity-color);
+  color: var(--whity-color);
 }
 
 .social-icon {
-  width: 20px;
-  height: 20px;
+  fill: currentColor;
 }
+
+
 
 /* clients */
 

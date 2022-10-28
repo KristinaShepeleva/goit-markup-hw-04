@@ -151,20 +151,11 @@ h2.title {
 
 .icon {
   display: block;
-  width: 16px;
-  height: 12px;
+ 
   fill: currentColor;
   margin-right: 10px;
 }
 
-.icon:hover {
-  fill: var(--accent-color)
-}
-
-.icon-smartphone {
-  width: 10px;
-  height: 16px;
-}
 
 /* Hero */
 
@@ -405,20 +396,23 @@ h2.title {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: var(--icon-color);
   
   border: 1px solid var(--icon-color);
   border-radius: 4px; 
-  fill: var(--icon-color)
+  
 }
 
-.client-wrapper:hover {
+.client-wrapper:hover,
+.client-wrapper:focus {
     border: 1px solid var(--accent-color);
-    fill: var(--accent-color);
+    color: var(--accent-color);
 } 
 
 .client {
   width: 106px;
   height: 60px; 
+  fill: currentColor;
 }
 
 
